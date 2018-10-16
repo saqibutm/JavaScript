@@ -15,6 +15,7 @@ User.prototype.logout = function(){
     console.log(this.email, 'has logged out');
 };
 
+
 function Admin(...args){
     User.apply(this, args);
 }
